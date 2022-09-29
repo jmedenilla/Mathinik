@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(image/5586938.jpg);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  margin-top: 60px;
+  margin-bottom: 0;
+  align-items: center;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+.first {
+  text-align: center;
+}
+.logo-mathinik {
+  font-family: "Bungee Spice", cursive;
+  font-size: 43px;
+  letter-spacing: 5px;
+  text-shadow: 3px 3px black;
+}
+.train {
+  margin-top: 0;
+  font-family: "Silkscreen", cursive;
+  font-size: 15px;
+  letter-spacing: 5px;
+  text-shadow: 3px 3px black;
+}
+.counter {
+  width: 225.41px;
+  margin-right: 150px;
+  letter-spacing: 1px;
+  font-family: "Silkscreen", cursive;
+  line-height: 30px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+main div {
+  text-align: center;
+  color: white;
+}
+.input-div {
+  width: 100px;
+  background-color: #224b0c;
+  height: 100px;
+  margin: 70px 50px 0;
+  padding: 80px 190px;
+  border: 10px solid #b3541e;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 20px black;
+}
+main div h1 {
+  font-family: "Silkscreen", cursive;
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin-top: 3px;
+  margin-bottom: 0;
+  text-shadow: 3px 3px 3px black;
+}
+#initiator {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+#initiator-maindiv {
+  margin-top: 0;
+}
+#initiator input {
+  margin: 10px auto 0;
+  width: 100px;
+  margin-bottom: 20px;
+  padding: 4px 50px 10px;
+  background: inherit;
+  border: none;
+  border-bottom: 2px solid white;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+}
+#initiator input:active,
+#initiator input:focus {
+  outline: none;
+}
+#initiator button {
+  padding: 7px 30px;
+  margin: 0 5px;
+  border-radius: 4px;
+  background: inherit;
+  color: white;
+  border: 2px solid white;
+  transition: all 150ms ease-in-out;
+}
+#initiator button:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: inherit;
+  font-weight: bold;
+}
+#initiator button:active {
+  background-color: white;
+}
+.div-btn {
+  display: flex;
+  justify-content: center;
+}
